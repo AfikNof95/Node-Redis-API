@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee1af74d-4753-4c53-94c4-6038b3634ed1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/redisHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Node-Redis-API.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="20" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -51,7 +57,7 @@
       <file leaf-file-name="redisHandler.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/redisHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="-323">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
@@ -61,8 +67,8 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -88,6 +94,7 @@
         <option value="$PROJECT_DIR$/app/config.js" />
         <option value="$PROJECT_DIR$/app/models/redisHandler.js" />
         <option value="$PROJECT_DIR$/app/controllers/router.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -285,7 +292,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479835976491</updated>
-      <workItem from="1479835977705" duration="6354000" />
+      <workItem from="1479835977705" duration="7875000" />
     </task>
     <task id="LOCAL-00001" summary="full app">
       <created>1479845772270</created>
@@ -294,15 +301,43 @@
       <option name="project" value="LOCAL" />
       <updated>1479845772270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Readme">
+      <created>1479847625752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1479847625752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Readme">
+      <created>1479847729884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1479847729884</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Readme">
+      <created>1479848652211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1479848652211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Readme update">
+      <created>1479848719961</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1479848719961</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6354000" />
+    <option name="totallyTimeSpent" value="7875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -312,7 +347,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39957717" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.397463" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -327,7 +362,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="full app" />
-    <option name="LAST_COMMIT_MESSAGE" value="full app" />
+    <MESSAGE value="Readme" />
+    <MESSAGE value="Readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,18 +397,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/redisHandler.js">
+    <entry file="file://$PROJECT_DIR$/app/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -384,10 +421,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/router.js">
+    <entry file="file://$PROJECT_DIR$/app/models/redisHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="-323">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding />
         </state>
       </provider>
