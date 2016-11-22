@@ -1,8 +1,8 @@
 # Node-Redis-API
 Generic Node Redis API
 
-#Configuration
-
+##Configuration
+'''javascript
 var config = module.exports = {
 
     appConfig: {
