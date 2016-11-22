@@ -20,11 +20,13 @@ var config = module.exports = {
 The port, redis server host and port , the routing are configurable.
 
 **$appConfig**
+
 port- The port the application will run on.
 
 getAll/get/post/delete URL - the routing for the http methods
 
  **redisConfig**
+
  host - The server redis is running on (localhost by default).
 
  port: The port redis-server is listening to (6379 by default).
