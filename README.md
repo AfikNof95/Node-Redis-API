@@ -1,7 +1,7 @@
 # Node-Redis-API
 Generic Node Redis API
 
-##Configuration
+## Configuration
 ```javascript
 var config = module.exports = {
 
@@ -17,15 +17,15 @@ var config = module.exports = {
 ```
 
 The port, redis server host and port , the routing are configurable.
-####$appConfig
+#### $appConfig
 port- The port the application will run on.
 getAll/get/post/delete URL - the routing for the http methods
 
- ####redisConfig
+ #### redisConfig
  host - The server redis is running on (localhost by default).
  port: The port redis-server is listening to (6379 by default).
 
- ##router
+ ## router
  ```javascript
  var express = require('express');
  var appConfig = require('../config').appConfig;
@@ -59,7 +59,7 @@ getAll/get/post/delete URL - the routing for the http methods
  '/deleteData/:ID/:fieldName' - the app is listening to http://$Your_Host/api/getData/:ID/:fieldName - example - http://localhost:1234/api/deleteData/foo/firstName - will delete foo's first name from the redis db.
 
 
- ##redis
+ ## redis
  you can download redis for windows from here:
  [Redis For Windows](https://github.com/rgl/redis/downloads)
  The dataset used in this project is hash.
