@@ -68,8 +68,8 @@ getAll/get/post/delete URL - the routing for the http methods
  **'/deleteData/:ID/:fieldName'** - the app is listening to http://$Your_Host/api/getData/:ID/:fieldName - example - http://localhost:1234/api/deleteData/foo/firstName - will delete foo's first name from the redis db.
 
 
- Redis
- ======
+Redis
+======
 
 
 
