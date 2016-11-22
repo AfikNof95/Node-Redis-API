@@ -29,7 +29,7 @@ getAll/get/post/delete URL - the routing for the http methods
 
  port: The port redis-server is listening to (6379 by default).
 
- ###Router
+ ### Router
 
  ```javascript
  var express = require('express');
@@ -67,7 +67,7 @@ getAll/get/post/delete URL - the routing for the http methods
  **'/deleteData/:ID/:fieldName'** - the app is listening to http://$Your_Host/api/getData/:ID/:fieldName - example - http://localhost:1234/api/deleteData/foo/firstName - will delete foo's first name from the redis db.
 
 
- ####Redis
+ #### Redis
 
  you can download redis for windows from here:
 
